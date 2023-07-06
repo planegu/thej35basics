@@ -1,0 +1,49 @@
+body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+color: black;
+text-transform: uppercase;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure{
+    border: 2px solid black;
+    padding: 10px;
+border-radius: 10px;
+text-align: center;
+}
+
+.rounded{
+    border-radius: 30%;
+}
+
+.subtitle{
+    border-bottom: 2px solid blue;
+    border-left: 2px solid yellow;
+    padding: 5px;
+}
+
+ul{
+    list-style: "🛩️";
+}
+
+img{
+    width: 300px;
+}
+
+figure img{
+    width: 500px;
+}
